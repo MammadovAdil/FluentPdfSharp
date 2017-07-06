@@ -1,3 +1,3 @@
 # Introduction
 
-Helpers and *Fluent* wrappers around PdfSharp and Micradoc.
+Helpers and *Fluent* wrappers around PdfSharp and MigraDoc.
