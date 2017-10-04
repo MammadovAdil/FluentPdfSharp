@@ -88,7 +88,7 @@ namespace Ma.FluentPdfSharp.Infrastructure.Concrete.MigraDoc
             // Add ':' to the end of label
             label = string.Format("{0}:", label.TrimEnd(':'));
 
-            this.AddFormattedText(label, CustomStyleNames.FieldLabel);
+            AddFormattedText(label, CustomStyleNames.FieldLabel);
 
             return this;
         }
@@ -104,7 +104,7 @@ namespace Ma.FluentPdfSharp.Infrastructure.Concrete.MigraDoc
             if (string.IsNullOrEmpty(text))
                 return this;
 
-            this.AddFormattedText(text, CustomStyleNames.FieldValue);
+            AddFormattedText(text, CustomStyleNames.FieldValue);
 
             return this;
         }
@@ -117,7 +117,7 @@ namespace Ma.FluentPdfSharp.Infrastructure.Concrete.MigraDoc
         /// <returns>Instance of IFluentParagraph.</returns>
         public IFluentParagraph AddField(string label, string text)
         {
-            this.AddLineBreak()
+            AddLineBreak()
                 .AddLabelText(label)
                 .AddText(" ")
                 .AddFieldText(text);
