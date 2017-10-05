@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ma.FluentPdfSharp</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>MammadovAdil</authors>
+    <owners>MammadovAdil</owners>
+    <licenseUrl>https://github.com/MammadovAdil/FluentPdfSharp/blob/master/License.md</licenseUrl>
+    <projectUrl>https://github.com/MammadovAdil/FluentPdfSharp</projectUrl>
+    <iconUrl>https://cdn0.iconfinder.com/data/icons/file-names-vol-6-1/512/24-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fluent methods to work conveniently with PdfSharp and MigraDoc.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Fluent Pdf PdfSharp MigraDoc</tags>
+
+    <dependencies>
+      <dependency id="PDFsharp-MigraDoc-GDI" version="1.32.4334" />
+    </dependencies>
+  </metadata>
+</package>
